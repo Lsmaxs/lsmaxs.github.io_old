@@ -105,7 +105,7 @@ module.exports = {
             filename:'index.html',
             template:'./personal/index.html',
             inject:true,
-            title:"LS",
+            title:"Lsmax",
             favicon:"./personal/favicon.ico",
             minify:{
                 removeComments:true,
