@@ -1,0 +1,98 @@
+.article-box{
+    box-sizing: border-box;
+    padding-left:30px;
+    width: 96%;
+    margin: 0 auto;
+    border-bottom: 1px solid #eee;
+    margin-bottom:20px;
+    position: relative;
+    .date{
+        position: absolute;
+        top:10px;
+        left:-39px;
+        padding: 17px;
+        width: 27px;
+        height: 42px;
+        background: #93c1ff;
+        &:after{
+            content: "";
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            bottom:-16px;
+            left:0;
+            background: url("./fold-date.png") no-repeat;
+        }
+        >div{
+            color: #fff;
+            height: 13px;
+            text-align: center;
+        }
+        .number{
+            height: 20px;
+            line-height: 20px;
+            font-size:21px;
+        }
+        .month,.year{
+            height: 15px;
+            line-height: 15px;
+            font-size:12px;
+        }
+    }
+    .article-head{
+        overflow: hidden;
+        padding-left:15px;
+        margin-bottom:10px;
+        .title{
+            color: #5d6165;
+            font-size:20px;
+            margin-bottom:5px;
+        }
+        .author{
+            font-size:12px;
+            color: #ccc;
+            font-weight:normal;
+            &:hover{
+                color: #666;
+                text-decoration: underline;
+            }
+        }
+    }
+    .article-main{
+        font-size:12px;
+        line-height: 20px;
+        color: #888;
+        padding-left:15px;
+        margin-bottom:10px;
+    }
+    .skill{
+        .skill-name{
+            margin-left: 15px;
+            padding-left:15px;
+            font-size: 12px;
+            height: 14px;
+            line-height: 14px;
+            color: #ccc;
+            border-left:2px solid #ccc;
+            margin-bottom:5px;
+        }
+        .skill-list{
+            padding-left:15px;
+            overflow: hidden;
+            margin-bottom:15px;
+            li{
+                font-size: 12px;
+                color: #ccc;
+                float: left;
+                padding: 0 5px;
+                height: 20px;
+                line-height: 20px;
+                margin:0 5px;
+                cursor: copy;
+            }
+        }
+    }
+}
+.article-box:last-of-type{
+    border: 0 none;
+}

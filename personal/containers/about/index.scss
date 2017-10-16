@@ -1,0 +1,168 @@
+.about{
+    width: 100%;
+    height: 100%;
+    .content{
+        .about-title{
+            font-weight:normal;
+            height: 80px;
+            text-align: center;
+            line-height: 80px;
+            font-size:36px;
+            color: #888;
+        }
+        .about-introduce{
+            padding:20px;
+            box-sizing: border-box;
+            overflow: hidden;
+            margin-bottom:40px;
+            .about-photo{
+                box-sizing: border-box;
+                padding:15px;
+                width: 300px;
+                //height: 400px;
+                background: #eeeeee;
+                float: left;
+                margin-right:50px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .about-article{
+                float: left;
+                width: 700px;
+                height: 400px;
+                box-sizing: border-box;
+                .article-title{
+                    font-weight:400;
+                    width: 100%;
+                    height: 55px;
+                    font-size:20px;
+                    color: #adadad;
+                    text-align: center;
+                }
+                .article-connent-cn{
+                    line-height:24px;
+                    letter-spacing:3px;
+                    color: #9d9d9d;
+                    font-size:14px;
+                    padding-bottom:30px;
+                    border-bottom:1px solid #eee;
+                    >span{
+                        font-weight:bold;
+                        letter-spacing:8px;
+                        font-size:30px;
+                    }
+                    >i{
+                        letter-spacing:normal;
+                    }
+                }
+                .article-connent-en{
+                    padding-top:30px;
+                    font-family:"黑体";
+                    color: #ccc;
+                    text-align: justify;
+                    font-size:14px;
+                }
+            }
+        }
+        .about-live-one{
+            margin-bottom:50px;
+            overflow: hidden;
+            height: 440px;
+            .live-photo{
+                float: left;
+                width: 718px;
+                height: 100%;
+                position: relative;
+                .border{
+                    position: absolute;
+                    top:0;
+                    right:0;
+                    width: 493px;
+                    height: 369px;
+                    border:2px solid #eeeeee;
+                    box-sizing: border-box;
+                }
+                >img{
+                    box-shadow:8px -7px 20px rgba(0,0,0,.34);
+                    position: absolute;
+                    width: 693px;
+                    height: 418px;
+                    right:25px;
+                    top:20px;
+                }
+            }
+            .live-article{
+                box-sizing: border-box;
+                width: 382px;
+                height: 100%;
+                float: left;
+                padding-top:180px;
+                >p{
+                    text-align: right;
+                    color: #9d9d9d;
+                    font-size:14px;
+                    height: 30px;
+                    line-height: 30px;
+                }
+                .p-a{
+                    font-size:12px;
+                    color: #ccc;
+                    margin-left:102px;
+                    width: 280px;
+                    padding-bottom:15px;
+                    border-bottom:1px solid #eee;
+                }
+            }
+        }
+        .about-live-two{
+            height: 556px;
+            margin-bottom:50px;
+            .live-article{
+                width: 565px;
+                height: 100%;
+                float: left;
+                box-sizing: border-box;
+                padding-top:255px;
+                >p{
+                    color: #9d9d9d;
+                    width: 90px;
+                    font-size:14px;
+                    margin-bottom:10px;
+                }
+                .p-a{
+                    font-size:12px;
+                    color: #ccc;
+                    line-height: 25px;
+                    width: 410px;
+                    padding-bottom:15px;
+                    border-bottom:1px solid #eee;
+                }
+            }
+            .live-photo{
+                width: 535px;
+                height: 100%;
+                float: left;
+                position: relative;
+                .border{
+                    right:0;
+                    top:0;
+                    width: 354px;
+                    height: 425px;
+                    position: absolute;
+                    border:2px solid #eeeeee;
+                    box-sizing: border-box;
+                }
+                >img{
+                    box-shadow:5px 0 30px rgba(0, 0, 0, 0.56);
+                    width: 513px;
+                    height: 536px;
+                    position: absolute;
+                    top:20px;
+                    right:22px;
+                }
+            }
+        }
+    }
+}
