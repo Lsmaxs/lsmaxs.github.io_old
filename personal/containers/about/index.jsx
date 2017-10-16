@@ -4,8 +4,8 @@ import FooterComponnet from '../../components/footer/index.jsx';
 import HeaderComponent from '../../components/header/index.jsx';
 import Banner from './banner.png';
 import Me from './touxiang.jpg';
-import LiveOne from './live-01.png';
-import LiveTwo from './live-02.png';
+import LiveOne from './touxiang.jpg';
+import LiveTwo from './touxiang.jpg';
 class About extends Component {
     constructor(){
         super();
