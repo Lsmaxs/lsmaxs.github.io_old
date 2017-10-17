@@ -69,10 +69,10 @@
         .about-live-one{
             margin-bottom:50px;
             overflow: hidden;
-            height: 440px;
+            height: 618px;
             .live-photo{
                 float: left;
-                width: 718px;
+                width: 520px;
                 height: 100%;
                 position: relative;
                 .border{
@@ -80,15 +80,15 @@
                     top:0;
                     right:0;
                     width: 493px;
-                    height: 369px;
+                    height: 584px;
                     border:2px solid #eeeeee;
                     box-sizing: border-box;
                 }
                 >img{
                     box-shadow:8px -7px 20px rgba(0,0,0,.34);
                     position: absolute;
-                    width: 693px;
-                    height: 418px;
+                    //width: 693px;
+                    height: 96%;
                     right:25px;
                     top:20px;
                 }
@@ -97,8 +97,8 @@
                 box-sizing: border-box;
                 width: 382px;
                 height: 100%;
-                float: left;
-                padding-top:180px;
+                float: right;
+                padding-top:254px;
                 >p{
                     text-align: right;
                     color: #9d9d9d;
@@ -143,20 +143,19 @@
             .live-photo{
                 width: 535px;
                 height: 100%;
-                float: left;
+                float: right;
                 position: relative;
                 .border{
                     right:0;
                     top:0;
-                    width: 354px;
-                    height: 425px;
+                    width: 436px;
+                    height: 524px;
                     position: absolute;
                     border:2px solid #eeeeee;
                     box-sizing: border-box;
                 }
                 >img{
                     box-shadow:5px 0 30px rgba(0, 0, 0, 0.56);
-                    width: 513px;
                     height: 536px;
                     position: absolute;
                     top:20px;
