@@ -11,7 +11,7 @@ import Five from './l-two.jpg';
 import Six from './x55.png';
 import Seven from './x33.png';
 import Eight from './l-six.jpg';
-import Banner from './banner11.png';
+import Banner from './banner11.jpg';
 import Wechat from './wech.png';
 import QQ from './qq.png';
 import Email from './email.png';
