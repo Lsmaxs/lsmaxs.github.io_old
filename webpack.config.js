@@ -14,7 +14,7 @@ module.exports = {
         'react-dom':'window.ReactDOM'
     },
     output:{
-        path: path.resolve(__dirname,'./build'),
+        path: path.resolve(__dirname,'./example'),
         filename: 'assets/js/[name]-[hash:2].js'
     },
     module: {
@@ -99,7 +99,7 @@ module.exports = {
     },
     plugins:[
         //每次构建前清理 /build 文件夹
-        new CleanWebpackPlugin(['build']),
+        new CleanWebpackPlugin(['example']),
         new webpack.HotModuleReplacementPlugin(), // 启用 HMR
         new htmlWebpackPlugin({
             filename:'index.html',
@@ -112,11 +112,11 @@ module.exports = {
                 collapseWhitespace:true
             }
         }),
-        /*new webpack.optimize.UglifyJsPlugin({
+        new webpack.optimize.UglifyJsPlugin({
             compress: {
                 warnings: true //打包后的JS文件压缩
             }
-        }),*/
+        }),
         new openBrowserWebpackPlugin({
             url:"http://localhost:8888"
         }),

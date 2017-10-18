@@ -3,7 +3,6 @@ import './index.scss';
 import HeaderComponent from '../../components/header/index.jsx';
 import FooterComponent from '../../components/footer/index.jsx';
 import ContactComponentPhoto from './subpage/index.jsx';
-//import One from './l-one.jpg';
 import One from './cxcx.png';
 import Two from './x22.png';
 import Three from './l-three.jpg';

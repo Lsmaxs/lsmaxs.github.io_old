@@ -31,7 +31,8 @@ class About extends Component {
                             <h2 className="article-title">WEB DESIGNER & WEB CODER</h2>
                             <p className="article-connent-cn">
                                 <span>我</span>
-                                是九尘,是一个90后,和大多数的90后一样,喜欢自由,喜欢唱歌,也喜欢玩游戏,我来自于梅州的一个偏僻的小城市,一次机会,让我接触到设计这门学问,开始一发不可收拾,但是我现在是一名前端开发工程师。我热爱设计,也热爱 <i>coding</i> ,我很自豪,我能靠自己的热爱,靠自己的代码养活我自己。如果说 <i className="h">HTML</i> 给我铺好了道路,那么<i className="c">CSS</i> 则是我再这条道路上的礼花,而 <i className="j">JAVASCRIPT</i> 就是推动我在这条道路上的越走越远的助力器。
+                                是Lsmax。敲代码的设计师一枚~，作为一名90后，我的骨子里有90后的热血和激情。我喜欢惊喜无限的艺术，喜欢代码随心而动的感觉，喜欢侃侃而谈的优雅，但是我现在是一名前端开发工程师。
+                                <p style={{textIndent:"2em"}}>我注重交互,喜爱设计,更热爱 <i>coding</i> ,以自己的热爱,靠自己的代码养活我自己，是一件让人自豪的事情呢~。我同设计嘻戏，和产品调侃，与后端互吹，于测试共舞，如同游任于团队的鱼儿。可以说HTML如同一张宣纸，Css为墨点缀色彩，则JavaScript为我掌中画笔，我可执笔挥毫泼墨一副副唯美的画卷!</p>
                             </p>
                             <p className="article-connent-en">
                                 I am 9dust ,one after 90 ,like most young people ,like freedom,like singing ,and also like playing games ,i come from a remote small city in Meizhou ,because of an occasional chance , I came into contact with the knowledge of design ,get out of hand ,and then it began to run out of control ,but I'm now a web development engineer.I love design and I love coding ,i am proud that I can support myself by my own love and by my own code ,i am proud that I can live a happy life on my own love and on my own code.If HTML paved the road for me ,then CSS would be my fireworks on this road , and JAVASCRIPT would be the booster that pushed me farther and farther along the road.
